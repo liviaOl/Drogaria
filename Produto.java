@@ -1,25 +1,21 @@
-package drogaria;
-import java.util.Scanner;
+package compra;
 public class Produto {
-    public String nomeProduto;
-    public int qtdProduto;
-    public float valorProduto;
-    Scanner ler = new Scanner(System.in);
+    public String nome;
+    public int qtd;
+    public double valor;
 
-    public Produto(String nomeProduto, int qtdProduto, float valorProduto) {
-        this.nomeProduto = nomeProduto;
-        this.qtdProduto = qtdProduto;
-        this.valorProduto = valorProduto;
+    public Produto(String nome, int qtd, double valor) {
+        this.nome = nome;
+        this.qtd = qtd;
+        this.valor = valor;
     }
- 
-    public void cadastrarProduto(String nomeProduto,int qtdProduto, float valorProduto){
-        System.out.println("Digite o nome do remedio: "+nomeProduto);
-        nomeProduto = ler.nextLine();
-        System.out.println("Digite a quantidade do remedio no estoque: "+qtdProduto);
-        qtdProduto = ler.nextInt();
-        System.out.println("Digite o valor unitário do remedio: "+valorProduto);
-        valorProduto = ler.nextFloat();
+
+    Produto() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+   
+    public void cadastrarProduto(String nome, int qtd, double valor){
         
-    
-    } 
+    }
 }

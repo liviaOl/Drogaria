@@ -9,15 +9,11 @@ package compra;
  *
  * @author root
  */
-public class Remedio {
-private String nome;
-private int qtd;
-private float valor;
+public class remedioControlado {
+    private boolean receita;
 
-    public Remedio(String nome, int qtd, float valor) {
-        this.nome = nome;
-        this.qtd = qtd;
-        this.valor = valor;
+    public remedioControlado(boolean receita) {
+        this.receita = receita;
     }
-
+    
 }

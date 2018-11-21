@@ -9,21 +9,17 @@ package compra;
  *
  * @author root
  */
-public class Funcionario {
+public class Cliente {
     private String nome;
     private String endereco;
     private int CPF;
-    private String cargo;
     private int telefone;
 
-    public Funcionario(String nome, String endereco, int CPF, String cargo, int telefone) {
+    public Cliente(String nome, String endereco, int CPF, int telefone) {
         this.nome = nome;
         this.endereco = endereco;
         this.CPF = CPF;
-        this.cargo = cargo;
         this.telefone = telefone;
     }
-    public void cadastrarFuncionario(String nome, String endereco, int CPF, String cargo, int telefone){
-        
-    }
+    
 }
